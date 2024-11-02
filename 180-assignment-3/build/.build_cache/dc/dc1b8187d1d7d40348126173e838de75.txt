@@ -1,0 +1,22 @@
+{
+    errdata = "\27[01m\27[Ksrc/assignment-3.cpp:\27[m\27[K In function ‘\27[01m\27[Kint\27[01;32m\27[K main\27[m\27[K(int, char**)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-3.cpp:90:11:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kn\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   90 |     float \27[01;35m\27[Kn\27[m\27[K = -0.1f, f = -50.0f;\
+      |           \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:90:22:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kf\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   90 |     float n = -0.1f, \27[01;35m\27[Kf\27[m\27[K = -50.0f;\
+      |                      \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:91:11:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kl\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   91 |     float \27[01;35m\27[Kl\27[m\27[K = -0.0414214f, r = 0.0414214f, b = -0.0414214f, t = 0.0414214f;\
+      |           \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:91:28:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kr\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   91 |     float l = -0.0414214f, \27[01;35m\27[Kr\27[m\27[K = 0.0414214f, b = -0.0414214f, t = 0.0414214f;\
+      |                            \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:91:44:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kb\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   91 |     float l = -0.0414214f, r = 0.0414214f, \27[01;35m\27[Kb\27[m\27[K = -0.0414214f, t = 0.0414214f;\
+      |                                            \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:91:61:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kt\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   91 |     float l = -0.0414214f, r = 0.0414214f, b = -0.0414214f, \27[01;35m\27[Kt\27[m\27[K = 0.0414214f;\
+      |                                                             \27[01;35m\27[K^\27[m\27[K\
+"
+}

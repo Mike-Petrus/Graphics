@@ -1,0 +1,10 @@
+{
+    errdata = "\27[01m\27[Ksrc/assignment-3.cpp:\27[m\27[K In function ‘\27[01m\27[Kint\27[01;32m\27[K main\27[m\27[K(int, char**)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-3.cpp:304:23:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kcomparison of integer expressions of different signedness: ‘\27[01m\27[Kint\27[m\27[K’ and ‘\27[01m\27[Kstd::vector<linalg::vec<float, 3> >::size_type\27[m\27[K’ {aka ‘\27[01m\27[Klong unsigned int\27[m\27[K’} [\27[01;35m\27[K-Wsign-compare\27[m\27[K]\
+  304 |     for (int i = 0; \27[01;35m\27[Ki < z_buffer.pixels.size()\27[m\27[K; i++){\
+      |                     \27[01;35m\27[K~~^~~~~~~~~~~~~~~~~~~~~~~~\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:308:26:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Ktriangle\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+  308 |     for (const Triangle &\27[01;35m\27[Ktriangle\27[m\27[K : triangles) {\
+      |                          \27[01;35m\27[K^~~~~~~~\27[m\27[K\
+"
+}

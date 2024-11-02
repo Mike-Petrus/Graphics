@@ -1,0 +1,10 @@
+{
+    errdata = "\27[01m\27[Ksrc/assignment-3.cpp:\27[m\27[K In function ‘\27[01m\27[Kint\27[01;32m\27[K main\27[m\27[K(int, char**)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-3.cpp:306:39:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Knarrowing conversion of ‘\27[01m\27[Ki\27[m\27[K’ from ‘\27[01m\27[Kint\27[m\27[K’ to ‘\27[01m\27[Kfloat\27[m\27[K’ [\27[01;35m\27[K-Wnarrowing\27[m\27[K]\
+  306 |             z_buffer.pixels[i + j] = {\27[01;35m\27[Ki\27[m\27[K, j, std::numeric_limits<float>::infinity()};\
+      |                                       \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-3.cpp:306:42:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Knarrowing conversion of ‘\27[01m\27[Kj\27[m\27[K’ from ‘\27[01m\27[Kint\27[m\27[K’ to ‘\27[01m\27[Kfloat\27[m\27[K’ [\27[01;35m\27[K-Wnarrowing\27[m\27[K]\
+  306 |             z_buffer.pixels[i + j] = {i, \27[01;35m\27[Kj\27[m\27[K, std::numeric_limits<float>::infinity()};\
+      |                                          \27[01;35m\27[K^\27[m\27[K\
+"
+}

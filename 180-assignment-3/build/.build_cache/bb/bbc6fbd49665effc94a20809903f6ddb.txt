@@ -1,0 +1,7 @@
+{
+    errdata = "\27[01m\27[Ksrc/assignment-3.cpp:\27[m\27[K In function ‘\27[01m\27[Kint\27[01;32m\27[K main\27[m\27[K(int, char**)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-3.cpp:186:15:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kviewport_transform_matrix\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+  186 |         Mat4f \27[01;35m\27[Kviewport_transform_matrix\27[m\27[K = {{(image_width/2.0f), 0, 0, 0}, {0, (image_height/2.0f), 0, 0}, {0, 0, 1, 0}, {(image_width/2.0f), (image_height/2.0f), 0, 1}};\
+      |               \27[01;35m\27[K^~~~~~~~~~~~~~~~~~~~~~~~~\27[m\27[K\
+"
+}

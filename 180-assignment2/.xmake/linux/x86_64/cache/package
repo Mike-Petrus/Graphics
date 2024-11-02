@@ -1,0 +1,44 @@
+{
+    stb = {
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/home/mike/.xmake/packages/s/stb/2024.06.01/1411cb81068a4769b53cf2d71650c82b/lib"
+            }
+        },
+        installdir = "/home/mike/.xmake/packages/s/stb/2024.06.01/1411cb81068a4769b53cf2d71650c82b",
+        sysincludedirs = {
+            "/home/mike/.xmake/packages/s/stb/2024.06.01/1411cb81068a4769b53cf2d71650c82b/include",
+            "/home/mike/.xmake/packages/s/stb/2024.06.01/1411cb81068a4769b53cf2d71650c82b/include/stb"
+        },
+        version = "2024.06.01",
+        __requirestr = "stb 2024.06.01",
+        __enabled = true
+    },
+    linalg = {
+        sysincludedirs = "/home/mike/.xmake/packages/l/linalg/v2.2/d050b935567d4e7fa562bb4b897d215d/include",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/home/mike/.xmake/packages/l/linalg/v2.2/d050b935567d4e7fa562bb4b897d215d/lib"
+            }
+        },
+        license = "Unlicense license",
+        installdir = "/home/mike/.xmake/packages/l/linalg/v2.2/d050b935567d4e7fa562bb4b897d215d",
+        version = "v2.2",
+        __requirestr = "linalg 2.2",
+        __enabled = true
+    },
+    spdlog = {
+        installdir = "/home/mike/.xmake/packages/s/spdlog/v1.13.0/cca5b628022e49229205fe5617e4245e",
+        __requirestr = "spdlog 1.13.0",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/home/mike/.xmake/packages/s/spdlog/v1.13.0/cca5b628022e49229205fe5617e4245e/lib"
+            }
+        },
+        license = "MIT",
+        sysincludedirs = "/home/mike/.xmake/packages/s/spdlog/v1.13.0/cca5b628022e49229205fe5617e4245e/include",
+        version = "v1.13.0",
+        syslinks = "pthread",
+        __enabled = true
+    }
+}

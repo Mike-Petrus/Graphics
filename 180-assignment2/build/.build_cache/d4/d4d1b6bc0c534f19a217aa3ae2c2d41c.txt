@@ -1,0 +1,25 @@
+{
+    errdata = "\27[01m\27[Ksrc/assignment-2.cpp:\27[m\27[K In function ‘\27[01m\27[Kint\27[01;32m\27[K main\27[m\27[K(int, char**)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-2.cpp:39:14:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Ktriangle_world_space\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   39 |     Triangle \27[01;35m\27[Ktriangle_world_space\27[m\27[K{.v0 = Vec3f{2.0f, 0.5f, 1.0f}, .v1 = Vec3f{1.0f, 0.3f, 3.0f}, .v2 = Vec3f{0.7f, 1.0f, 2.0f}};\
+      |              \27[01;35m\27[K^~~~~~~~~~~~~~~~~~~~\27[m\27[K\
+\27[01m\27[Ksrc/assignment-2.cpp:83:11:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kl\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+   83 |     float \27[01;35m\27[Kl\27[m\27[K = -4.0f, r = 4.0f, b = -2.0f, t = 2.0f, n = -1.0f, f = -10.0f;\
+      |           \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-2.cpp:83:22:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kr\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+   83 |     float l = -4.0f, \27[01;35m\27[Kr\27[m\27[K = 4.0f, b = -2.0f, t = 2.0f, n = -1.0f, f = -10.0f;\
+      |                      \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-2.cpp:83:32:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kb\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+   83 |     float l = -4.0f, r = 4.0f, \27[01;35m\27[Kb\27[m\27[K = -2.0f, t = 2.0f, n = -1.0f, f = -10.0f;\
+      |                                \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-2.cpp:83:43:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kt\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+   83 |     float l = -4.0f, r = 4.0f, b = -2.0f, \27[01;35m\27[Kt\27[m\27[K = 2.0f, n = -1.0f, f = -10.0f;\
+      |                                           \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-2.cpp:83:53:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kn\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+   83 |     float l = -4.0f, r = 4.0f, b = -2.0f, t = 2.0f, \27[01;35m\27[Kn\27[m\27[K = -1.0f, f = -10.0f;\
+      |                                                     \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-2.cpp:83:64:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kf\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+   83 |     float l = -4.0f, r = 4.0f, b = -2.0f, t = 2.0f, n = -1.0f, \27[01;35m\27[Kf\27[m\27[K = -10.0f;\
+      |                                                                \27[01;35m\27[K^\27[m\27[K\
+"
+}

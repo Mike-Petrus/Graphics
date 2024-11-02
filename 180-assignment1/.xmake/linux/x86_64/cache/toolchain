@@ -1,0 +1,76 @@
+{
+    cross_arch_x86_64_plat_linux = {
+        __global = true,
+        arch = "x86_64",
+        plat = "linux",
+        __checked = true
+    },
+    nim_arch_x86_64_plat_linux = {
+        __global = true,
+        arch = "x86_64",
+        plat = "linux",
+        __checked = true
+    },
+    gcc_arch_x86_64_plat_linux = {
+        __global = true,
+        arch = "x86_64",
+        plat = "linux",
+        __checked = true
+    },
+    ["tool_target_assignment-1_linux_x86_64_cxx"] = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc",
+        toolname = "gcc"
+    },
+    tool_platform_linux_x86_64_ld = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux"
+        },
+        program = "/usr/bin/g++",
+        toolname = "gxx"
+    },
+    ["tool_target_assignment-1_linux_x86_64_ld"] = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux"
+        },
+        program = "/usr/bin/g++",
+        toolname = "gxx"
+    },
+    zig_arch_x86_64_plat_linux = {
+        __global = true,
+        arch = "x86_64",
+        plat = "linux",
+        __checked = true
+    },
+    tool_platform_linux_x86_64_cxx = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc",
+        toolname = "gcc"
+    },
+    tool_platform_linux_x86_64_cc = {
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            arch = "x86_64",
+            name = "gcc",
+            plat = "linux"
+        },
+        program = "/usr/bin/gcc",
+        toolname = "gcc"
+    }
+}
