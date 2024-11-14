@@ -1,0 +1,10 @@
+{
+    errdata = "\27[01m\27[Ksrc/assignment-5.cpp:\27[m\27[K In function ‘\27[01m\27[Kvoid\27[01;32m\27[K draw_bezier_curve\27[m\27[K(const std::vector<linalg::vec<float, 2> >&, muni::Image&, float)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-5.cpp:40:17:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kx\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   40 |             int \27[01;35m\27[Kx\27[m\27[K = static_cast<int>(curve_point.x * image.width + 0.5f);\
+      |                 \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-5.cpp:41:17:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Ky\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   41 |             int \27[01;35m\27[Ky\27[m\27[K = static_cast<int>(curve_point.y * image.height + 0.5f);\
+      |                 \27[01;35m\27[K^\27[m\27[K\
+"
+}

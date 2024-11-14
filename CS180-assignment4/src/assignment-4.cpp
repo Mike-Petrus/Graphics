@@ -85,10 +85,17 @@ int main(int argc, char** argv)
                 image(x, y) = Vec3f{0.0f, 0.0f, 0.0f};
                 continue;
             }
+
+            float r = length(world_position - light_position);
+            Vec3f v = normalize(camera_position - world_position);
+            Vec3f l = normalize(camera_position - light_position);
+            Vec3f h = normalize(v + l);
+
             Vec3f light_ambient = ambient_color * ambient_light_intensity;
-            Vec3f light_diffuse = diffuse_color * (light_intensity/(light_position * light_position)) * std::max(Vec3f{0.0f, 0.0f, 0.0f}, (world_normal * light_position));
-            Vec3f light_specular = specular_color * (light_intensity/(light_position * light_position)) * std::pow(std::max(0, normal * ))
-            image(x,y) = light_ambient + light_diffuse;
+            Vec3f light_diffuse = diffuse_color * (light_intensity/(r * r)) * max(Vec3f{0.0f, 0.0f, 0.0f}, (dot(world_normal,l)));
+            Vec3f light_specular = specular_color * (light_intensity/(r * r)) * pow(max(Vec3f{0.0f, 0.0f, 0.0f}, (dot(world_normal,h))), p);
+
+            image(x,y) = light_ambient + light_diffuse + light_specular;
 
         }
     }
@@ -132,9 +139,23 @@ int main(int argc, char** argv)
                 image(x, y) = Vec3f{0.0f, 0.0f, 0.0f};
                 continue;
             }
-            // =============================================================================================
-            // Your code goes here
-            // =============================================================================================
+
+            int uvx = uv_coords.x * (diffuse_color_image.width - 1);
+            int uvy = uv_coords.y * (diffuse_color_image.height -1);
+
+            Vec3f tex_color = diffuse_color_image(uvx, uvy);
+
+            float r = length(world_position - light_position);
+            Vec3f v = normalize(camera_position - world_position);
+            Vec3f l = normalize(camera_position - light_position);
+            Vec3f h = normalize(v + l);
+
+            Vec3f light_ambient = ambient_color * ambient_light_intensity;
+            Vec3f light_diffuse = tex_color * (light_intensity/(r * r)) * max(Vec3f{0.0f, 0.0f, 0.0f}, (dot(world_normal,l)));
+            Vec3f light_specular = specular_color * (light_intensity/(r * r)) * pow(max(Vec3f{0.0f, 0.0f, 0.0f}, (dot(world_normal,h))), p);
+
+            image(x,y) = light_ambient + light_diffuse + light_specular;
+            //image(x, y) = tex_color;
         }
     }
     spdlog::info("Saving the image to part-2.png.");
