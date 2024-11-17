@@ -35,7 +35,7 @@ void draw_bezier_curve(const std::vector<Vec2f>& control_points, Image& image, f
     }
 
         
-        for (float t = 0; t < 1; t += step){
+        for (float t = 0; t <= 1; t += step){
             Vec2f curve_point = de_casteljau(control_points, t);
             int x = static_cast<int>(curve_point.x * image.width + 0.5f);
             int y = static_cast<int>(curve_point.y * image.height + 0.5f);

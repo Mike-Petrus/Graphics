@@ -2,8 +2,6 @@
     files = {
         "src/assignment-5.cpp"
     },
-    depfiles_gcc = "assignment-5.o: src/assignment-5.cpp src/muni/common.h src/muni/image.h\
-",
     values = {
         "/usr/bin/gcc",
         {
@@ -24,5 +22,7 @@
             "/home/mike/.xmake/packages/l/linalg/v2.2/d050b935567d4e7fa562bb4b897d215d/include",
             "-DNDEBUG"
         }
-    }
+    },
+    depfiles_gcc = "assignment-5.o: src/assignment-5.cpp src/muni/common.h src/muni/image.h\
+"
 }

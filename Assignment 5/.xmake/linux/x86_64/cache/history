@@ -7,6 +7,9 @@
         "xmake run",
         "xmake ",
         "xmake ",
+        "xmake run",
+        "xmake ",
+        "xmake lua /usr/share/xmake/modules/private/utils/statistics.lua",
         "xmake run"
     }
 }
