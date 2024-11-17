@@ -1,6 +1,7 @@
 # Graphics
 
 Assignment overview
+
 For implementation details, see associated PDFs
 
 # Assignment 1
