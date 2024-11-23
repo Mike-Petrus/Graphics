@@ -1,0 +1,19 @@
+{
+    errdata = "In file included from \27[01m\27[Ksrc/muni/scenes/box.h:4\27[m\27[K,\
+                 from \27[01m\27[Ksrc/assignment-6.cpp:4\27[m\27[K:\
+\27[01m\27[Ksrc/muni/triangle.h:\27[m\27[K In static member function ‘\27[01m\27[Kstatic std::tuple<bool, float> muni::Triangle::\27[01;32m\27[Kray_triangle_intersect\27[m\27[K(muni::Triangle, muni::Vec3f, muni::Vec3f)\27[m\27[K’:\
+\27[01m\27[Ksrc/muni/triangle.h:31:15:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kt\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+   31 |         float \27[01;35m\27[Kt\27[m\27[K = t_matrix[0];\
+      |               \27[01;35m\27[K^\27[m\27[K\
+\27[01m\27[Ksrc/assignment-6.cpp:\27[m\27[K In function ‘\27[01m\27[Kint\27[01;32m\27[K main\27[m\27[K(int, char**)\27[m\27[K’:\
+\27[01m\27[Ksrc/assignment-6.cpp:133:19:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kray_origin\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+  133 |             Vec3f \27[01;35m\27[Kray_origin\27[m\27[K = camera_for_triangle.position;\
+      |                   \27[01;35m\27[K^~~~~~~~~~\27[m\27[K\
+\27[01m\27[Ksrc/assignment-6.cpp:134:19:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kvariable ‘\27[01m\27[Kray_direction\27[m\27[K’ set but not used [\27[01;35m\27[K-Wunused-but-set-variable\27[m\27[K]\
+  134 |             Vec3f \27[01;35m\27[Kray_direction\27[m\27[K = camera_for_triangle.generate_ray(u, v);\
+      |                   \27[01;35m\27[K^~~~~~~~~~~~~\27[m\27[K\
+\27[01m\27[Ksrc/assignment-6.cpp:126:15:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunused variable ‘\27[01m\27[Kmax_bounce\27[m\27[K’ [\27[01;35m\27[K-Wunused-variable\27[m\27[K]\
+  126 |     const int \27[01;35m\27[Kmax_bounce\27[m\27[K = 5;\
+      |               \27[01;35m\27[K^~~~~~~~~~\27[m\27[K\
+"
+}
